@@ -1,0 +1,10 @@
+# This is a comment
+prefix=/Users/sajidiqbal/linphone-iphone/submodules/build/..//../liblinphone-sdk/armv7s-apple-darwin
+exec_prefix=${prefix}
+includedir=${prefix}/include
+
+Name:  libbcg729
+Description: Implement the ITU G729 speech codec. 
+Version: 0.1                           
+Libs: -L${exec_prefix}/lib -lbcg729 
+Cflags: -I${prefix}/include 

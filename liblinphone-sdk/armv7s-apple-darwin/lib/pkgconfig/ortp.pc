@@ -1,0 +1,10 @@
+# This is a comment
+prefix=/Users/sajidiqbal/linphone-iphone/submodules/build/..//../liblinphone-sdk/armv7s-apple-darwin
+exec_prefix=${prefix}
+includedir=${prefix}/include
+
+Name: oRTP 
+Description: Implement the RFC3550 (RTP) with a easy to use API with high and low level access. 
+Version: 0.22.0                           
+Libs: -L${exec_prefix}/lib -lortp  -lpthread   -L/Users/sajidiqbal/linphone-iphone/submodules/build/..//../liblinphone-sdk/armv7s-apple-darwin/lib -lsrtp  -L/Users/sajidiqbal/linphone-iphone/liblinphone-sdk/armv7s-apple-darwin/lib -L/Users/sajidiqbal/linphone-iphone/submodules/build/..//../liblinphone-sdk/armv7s-apple-darwin/lib -lzrtpcpp -lcrypto  
+Cflags: -I${prefix}/include  -D_REENTRANT  -DORTP_INET6 -I/Users/sajidiqbal/linphone-iphone/submodules/build/..//../liblinphone-sdk/armv7s-apple-darwin/include -I/Users/sajidiqbal/linphone-iphone/submodules/build/..//../liblinphone-sdk/armv7s-apple-darwin/include/srtp -I/Users/sajidiqbal/linphone-iphone/liblinphone-sdk/armv7s-apple-darwin/include -I/Users/sajidiqbal/linphone-iphone/submodules/build/..//../liblinphone-sdk/armv7s-apple-darwin/include  

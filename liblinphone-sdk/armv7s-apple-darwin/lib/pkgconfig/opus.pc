@@ -1,0 +1,16 @@
+# Opus codec reference implementation pkg-config file
+
+prefix=/Users/sajidiqbal/linphone-iphone/submodules/build/..//../liblinphone-sdk/armv7s-apple-darwin
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: Opus
+Description: Opus IETF audio codec (fixed-point build)
+URL: http://opus-codec.org/
+Version: 1.1-alpha-152-gfcecd29
+Requires:
+Conflicts:
+Libs: -L${libdir} -lopus
+Libs.private: 
+Cflags: -I${includedir}/opus

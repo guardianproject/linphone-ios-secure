@@ -1,0 +1,11 @@
+# This is a comment
+prefix=/Users/sajidiqbal/linphone-iphone/submodules/build/..//../liblinphone-sdk/armv7s-apple-darwin
+exec_prefix=${prefix}
+includedir=${prefix}/include
+
+Name: mediastreamer 
+Description: A mediastreaming library for telephony applications
+Requires: ortp
+Version: 2.9.1
+Libs: -L${exec_prefix}/lib -lmediastreamer_base -lmediastreamer_voip
+Cflags: -I${prefix}/include  -DMS_FIXED_POINT

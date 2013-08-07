@@ -1,0 +1,15 @@
+prefix=/Users/sajidiqbal/linphone-iphone/liblinphone-sdk/armv7s-apple-darwin
+exec_prefix=/Users/sajidiqbal/linphone-iphone/liblinphone-sdk/armv7s-apple-darwin/bin
+libdir=/Users/sajidiqbal/linphone-iphone/liblinphone-sdk/armv7s-apple-darwin/lib
+pkglibdir=${libdir}/pkgconfig
+includedir=/Users/sajidiqbal/linphone-iphone/liblinphone-sdk/armv7s-apple-darwin/include
+pkgincludedir=${includedir}/pkgconfig
+
+Name: libzrtpcpp
+Description: GNU ZRTP core library
+Version: 2.1.0
+Requires: libcrypto >= 0.9.8
+Libs:  -L${libdir} -lzrtpcpp
+Cflags: -I${includedir}
+
+
