@@ -508,7 +508,7 @@ static UICompositeViewDescription *compositeDescription = nil;
 #pragma mark - Action Functions
 
 - (IBAction)onStartClick:(id)sender {
-    [self changeView:choiceView back:FALSE animation:TRUE];
+    [self changeView:externalAccountView back:FALSE animation:TRUE];
 }
 
 - (IBAction)onBackClick:(id)sender {
