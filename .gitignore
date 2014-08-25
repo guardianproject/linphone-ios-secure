@@ -1,6 +1,7 @@
 build-*
 *.locuser
 .DS_Store
+archives/
 #liblinphone-sdk
 # Xcode
 .DS_Store
